@@ -1,5 +1,5 @@
 /*
-Question: What skills are required for the Top-Paying Data Analyst jobs in the US?
+Question: What skills are required for the Top 10 Paying Data Analyst jobs in the US?
 - Using the first query for the Top 10 highest paying Data Analyst jobs
 - Add the specific skills required for these roles
 */
@@ -33,13 +33,3 @@ INNER JOIN skills_dim ON
 ORDER BY
 	salary_year_avg DESC;
     
-/*
-💡 Key takeaways
-🔹 Python is the most frequently mentioned skill — a clear priority for data analysts.
-
-🔹 Traditional tools like Excel and SQL remain essential.
-
-🔹 Data visualization tools (Tableau, Power BI) are highly valued.
-
-🔹 R is still in demand for statistical analysis alongside Python.
-*/
