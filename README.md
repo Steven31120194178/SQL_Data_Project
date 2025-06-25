@@ -99,3 +99,32 @@ If you’re looking to increase earning potential, picking up specialized tools 
 ## Question 5: What are the most optimal skills to learn in US as a Data Analyst?
 View my codes with detailed steps here:  
 [5_Optimal_Skills.sql](Project_SQL\5_Optimal_Skills.sql)
+
+## Steps:
+- Identify each skill with its Count and Salary year average(high-demand & high-paying)
+- Focusing on specified Salary (Remove Null)
+- Obtain the Top 20 skills with the highest dmeand and highest salary
+
+## Top 20 skills for Data Analyst in the US on        (Demand Count vs Average Salary)
+![Bar Chart of Question 5](Project_SQL/picture_5.PNG)
+
+## Insights
+- High-demand skills like SQL and Excel appear on the far right of the scatter plot — they have the largest demand (demand_count) — but their average salaries tend to be on the lower side of the scale (~$87k to $97k).
+
+- Python and R are also in demand and show higher average salaries (~$100k+) compared to SQL and Excel.
+
+- Tableau lies somewhere in the middle — fairly high demand (~1,366 postings) with an average salary close to $99,500.
+
+- Some skills (not shown individually here due crowding) may show up as outliers with higher pay but lower demand — these would appear in the top left of the scatter (e.g. specialized programming languages or tools).
+### Key Observation
+Comparing with the skills from Question 4, you will notice that the skills that might not have large demand in US as Data Analyst, tend to have higher salary. 
+
+
+## Conclusion & Recommendation:
+If you’re choosing what to upskill in:
+
+- Stick to Python and R if you want a mix of demand and salary.
+
+- Consider specialized data tools if you want to aim for higher salaries but potentially fewer job postings.
+
+- SQL and Excel will give you more openings, but they may need to be complemented with other technical skills to boost earning potential.
